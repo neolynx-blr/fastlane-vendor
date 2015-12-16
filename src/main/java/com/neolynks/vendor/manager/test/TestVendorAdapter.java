@@ -21,7 +21,7 @@ public class TestVendorAdapter implements VendorAdapter {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.neolynx.curator.manager.VendorAdapter#getLatestLastModifiedBy()
+	 * @see com.neolynks.curator.manager.VendorAdapter#getLatestLastModifiedBy()
 	 */
 	public String getLatestInventoryTimestamp() {
 		return String.valueOf(attemptCount);
@@ -31,7 +31,7 @@ public class TestVendorAdapter implements VendorAdapter {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * com.neolynx.curator.manager.VendorAdapter#getRecentRecords(java.lang.
+	 * com.neolynks.curator.manager.VendorAdapter#getRecentRecords(java.lang.
 	 * String, java.lang.String)
 	 */
 	public List<ItemMaster> getInventoryUpdateInTimeRange(String startTimeStamp, String endTimeStamp) {
@@ -136,7 +136,7 @@ values(289,'I0007',11,'D4','D-Description','D-Tagline', '1240', 1111.32, 1112.12
 	}
 
 	/* (non-Javadoc)
-	 * @see com.neolynx.curator.manager.VendorAdapter#generateCompleteInventorySet()
+	 * @see com.neolynks.curator.manager.VendorAdapter#generateCompleteInventorySet()
 	 */
 	public List<ItemMaster> getAllInventory() {
 		List<ItemMaster> response = new ArrayList<ItemMaster>();

@@ -16,7 +16,7 @@ import com.neolynks.common.model.ItemMaster;
 public class Adapter implements VendorAdapter {
 
 	/* (non-Javadoc)
-	 * @see com.neolynx.curator.manager.VendorAdapter#getLatestLastModifiedBy()
+	 * @see com.neolynks.curator.manager.VendorAdapter#getLatestLastModifiedBy()
 	 */
 	public String getLatestInventoryTimestamp() {
 		// TODO Auto-generated method stub
@@ -24,7 +24,7 @@ public class Adapter implements VendorAdapter {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.neolynx.curator.manager.VendorAdapter#getRecentRecords(java.lang.String, java.lang.String)
+	 * @see com.neolynks.curator.manager.VendorAdapter#getRecentRecords(java.lang.String, java.lang.String)
 	 */
 	public List<ItemMaster> getInventoryUpdateInTimeRange(String startTimeStamp, String endTimeStamp) {
 		// TODO Auto-generated method stub
@@ -32,7 +32,7 @@ public class Adapter implements VendorAdapter {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.neolynx.curator.manager.VendorAdapter#generateCompleteInventorySet()
+	 * @see com.neolynks.curator.manager.VendorAdapter#generateCompleteInventorySet()
 	 */
 	public List<ItemMaster> getAllInventory() {
 		// TODO Auto-generated method stub
